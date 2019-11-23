@@ -1,0 +1,6 @@
+endpoint: https://stories-latest-b0c4c87dc0.herokuapp.com/stories-auth/master
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ./generated/prisma-client/
